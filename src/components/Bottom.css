@@ -1,0 +1,19 @@
+.downPart{
+    height: 100vh;
+    margin-top: 40px;
+    margin: 30px;
+}
+
+.downPart>div{
+    display: flex;
+    align-items: center;
+}
+.hdd>img{
+    height: 110px;
+}
+.subs>img{
+    height: 80px;
+}
+.subs>h2{
+    font-weight: 200;
+}

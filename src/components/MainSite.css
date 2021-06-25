@@ -1,0 +1,73 @@
+.mainSite{
+    display: flex;
+}
+.rightSide{
+    flex:0.5;
+    display: flex;
+}
+.leftSide{
+    
+    flex:0.5;
+
+}
+.rimg{
+ display: flex;
+ flex-direction: column;
+}
+.smm{
+    height: 18vh;
+    width: 10vw;
+}
+.mainIMG{
+height: 90vh;
+width: 60vw;
+}
+.abt{
+    display: flex;
+}
+.ch{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+.imgico{
+    position: relative;
+    height: 50px;
+    font-weight: 600;
+}
+h2{
+    margin-left: 15px;
+}
+.ch>h2{
+    position: relative;
+    left: -25px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.stuck{
+    text-decoration: line-through;
+}
+.pr1{
+    font-weight: 200;
+}
+.button{
+    font-size: 2.5rem;
+    margin: 10px;
+    border-radius: 5px;
+    width: 420px;
+    justify-content: center;
+    background-color: hsl(54, 100%, 48%) ;
+    outline: none;
+    cursor: pointer;
+}
+.gchild>img{
+cursor: pointer;
+}
+.downG{
+    margin:14px;
+    display: grid;
+    padding: 15px;
+    grid-template-columns: 120px 120px 120px 120px;
+    align-content: center;
+}
